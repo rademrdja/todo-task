@@ -1,0 +1,15 @@
+.completed-task {
+    text-decoration: line-through;
+}
+
+.input-field {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    outline: 0;
+    transition: .2s ease-in-out;
+    font-size: 15px;
+}

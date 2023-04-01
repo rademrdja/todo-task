@@ -1,0 +1,39 @@
+.header--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.input-button {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    background-color: #316add;
+    color: white;
+    font-weight: 700;
+    cursor: pointer
+}
+
+.select-field {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+}
+
+.error-text {
+    color: rgb(151, 15, 15);
+}
+
+@media all and (max-width: 600px) {
+    .header--container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
